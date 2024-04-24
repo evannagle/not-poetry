@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pyboot"
+name = "not_poetry"
 version = "0.1.0"
 description = "My template for creating quick python scripts."
 authors = ["Evan Nagle <evan.nagle@gmail.com>"]
@@ -20,13 +20,13 @@ coverage = "^7.4.4"
 mkdocs = "^1.5.3"
 
 [tool.poetry.scripts]
-pyboot = "pyboot.app:main"
+not_poetry = "not_poetry.app:main"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.towncrier]
-package = "pyboot"
-package_dir = "pyboot"
+package = "not_poetry"
+package_dir = "not_poetry"
 directory = "changes"

@@ -4,7 +4,6 @@ import os
 import time
 import random
 
-from not_poetry.calculator import add
 
 
 class Poem:

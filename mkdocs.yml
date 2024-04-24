@@ -1,5 +1,5 @@
-site_name: pyboot
-site_url: https://pyboot.com
+site_name: not_poetry
+site_url: https://not_poetry.com
 nav:
   - Home: index.md
   - About: about.md

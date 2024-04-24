@@ -1,6 +1,6 @@
 {
-  "name": "pyboot",
-  "pythonPackageName": "pyboot",
+  "name": "not_poetry",
+  "pythonPackageName": "not_poetry",
   "version": "1.0.0",
   "description": "",
   "main": "scripts/makefile-parser.js",

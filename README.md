@@ -1,84 +1,40 @@
-# Pyboot
+# AI is not great at poetry.
 
-This is a simple Python application template for Python projects designed to streamline your development workflow.
-
-Features include:
-
-- Dependency management with Poetry: https://python-poetry.org/: Poetry provides a powerful way to manage project dependencies, creating isolated environments and handling version conflicts.
-- Code formatting with Black: https://black.readthedocs.io/en/stable/: Black enforces consistent, opinionated code formatting, enhancing readability and collaboration.
-- Linting with Ruff: [invalid URL removed]: Ruff helps find potential bugs, stylistic issues, and maintain a clean codebase.
-  Unit testing with Pytest: https://docs.pytest.org/en/latest/: Pytest provides a flexible and popular framework for writing and running tests that ensure your code's correctness.
-- Changelog management with towncrier: https://towncrier.readthedocs.io/en/latest/: Maintain well-structured changelogs to track project changes.
-- Automation script management with Node and/or Python: Streamline common tasks (e.g., building, testing, deploying) with customizable scripts.
-- Pre- and post-commit sanity checks with Husky: https://typicode.github.io/husky/: Enforce quality standards at commit time to catch issues early.
-- Documentation creation with MkDocs: https://www.mkdocs.org/: Easily create beautiful technical documentation for your project.
-
-## Setup
-
-1. Create a copy of the template
+I created this little repo to test ChatGPT against some of the best (and wasted) poetic minds of generation's past. It's just a little pet project that I did while enduring another human meeting. It's currently dialed to Emily Dickinson with no real way to keep score, but perhaps I'll get around to adding some bells and whistles at some point.
 
 ```bash
-gh repo create happy-bog --template git@github.com:evannagle/pyboot.git  --private --clone
+not_poetry
+
+Though the great Waters sleep,
+That they are still the Deep,
+We cannot doubt --
+No vacillating God
+Ignited this Abode
+To put it out --
+
+Is this poem AI generated (y/n)? n
+Your answer is correct.
+The poem is by Emily Dickinson and is called Though the great Waters sleep.
 ```
 
-2. Install dependencies
-
 ```bash
-cd happy-bog
+not_poetry
 
-make install
-```
+To the Forgotten Path
+A Leaf of Autumn fell --
+It knew not of the bustling world,
+Nor where the shadows dwell --
+Granted a season brief
+Upon a trodden trail --
+Then whisked as softly into dusk
+As whispers from a gale --
 
-3. Rename the app
+Of Time the Marks are slight --
+As Nature tells of her --
+"Abide with me" the fragment
+That stirs the wanderer --
 
-```bash
-make rename
-```
-
-4. Run the app
-
-```bash
-make app
-```
-
-Which should output:
-
-```bash
-
-🤖 Cleaning up
-rm -rf __pycache__ .pytest_cache .coverage .mypy_cache .tox .eggs .venv
-
-🤖 Building the project
-poetry install
-Installing dependencies from lock file
-
-No dependencies to install or update
-
-Installing the current project: pyboot (0.1.0)
-
-🤖 Running the app
-poetry run pyboot
-42
-```
-
-5. Test the app
-
-```bash
-make test
-```
-
-6. Review test coverage
-
-```bash
-make coverage
-```
-
-7. Globalize the command for use from your command line
-
-```bash
-make globalize
-
-happy-bog
-
-> 42
+Is this poem AI generated (y/n)? y
+Your answer is correct.
+The poem was AI generated. Inspired by the real poem, To her derided Home by Emily Dickinson.
 ```
