@@ -5,7 +5,6 @@ import time
 import random
 
 
-
 class Poem:
     def __init__(self, title, author, lines):
         self.title = title
